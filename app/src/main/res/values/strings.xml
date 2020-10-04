@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CurrencyExchange</string>
+    <string name="course">Курс:</string>
+    <string name="exchangeRates">Курс валют</string>
+    <string name="prompt">Введите сумму в рублях</string>
+    <string name="choice">Валюта из списка: </string>
+    <string name="result">Результат: </string>
+    <string name="count">Посчитать</string>
+    <string name="refresh">Обновить</string>
 </resources>
