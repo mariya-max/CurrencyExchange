@@ -1,4 +1,4 @@
-package com.example.currencyExchange;
+package com.example.currencyExchange.Model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

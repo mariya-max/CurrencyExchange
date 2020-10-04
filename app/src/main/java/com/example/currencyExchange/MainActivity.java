@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.example.currencyExchange.Api.Api;
 import com.example.currencyExchange.Controller.RealmController;
+import com.example.currencyExchange.Model.Valute;
 
 import java.util.ArrayList;
 

@@ -1,5 +1,6 @@
 package com.example.currencyExchange;
 
+import com.example.currencyExchange.Model.Valute;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

@@ -2,7 +2,7 @@ package com.example.currencyExchange.Controller;
 
 import android.content.Context;
 
-import com.example.currencyExchange.Valute;
+import com.example.currencyExchange.Model.Valute;
 
 import java.util.List;
 

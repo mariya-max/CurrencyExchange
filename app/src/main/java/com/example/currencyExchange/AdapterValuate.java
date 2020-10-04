@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.currencyExchange.Model.Valute;
+
 import io.realm.RealmResults;
 
 public class AdapterValuate extends RecyclerView.Adapter<AdapterValuate.ViewHolder> {
