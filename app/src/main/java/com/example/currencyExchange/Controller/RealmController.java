@@ -40,4 +40,8 @@ public class RealmController {
     public Valute getValuateById(String id) {
         return realm.where(Valute.class).equalTo("id", id).findFirst();
     }
+
+    public void closeRealm() {
+        realm.close();
+    }
 }

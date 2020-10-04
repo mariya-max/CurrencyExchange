@@ -17,6 +17,7 @@ import com.example.currencyExchange.Model.Valute;
 
 import java.util.ArrayList;
 
+import io.realm.Realm;
 import io.realm.RealmResults;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -160,5 +161,11 @@ public class MainActivity extends AppCompatActivity {
                 sendRequest();
             }
         });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        controller.closeRealm();
     }
 }
